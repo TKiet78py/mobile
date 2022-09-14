@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --white-color:#fff;
+    --black-color:#111;
+    --text-color:#C9CACB;
+    --gray-color:#555;
+    --orange-color:#FFBD2D;
+    --blue-color:#41B1FA;
+    --background-color:#AED5FB;
+}

@@ -1,0 +1,163 @@
+
+.grid{
+    height: 200vh;
+    position: relative;
+    background-color:var(--background-color);
+}
+
+.wrapper{
+    margin-top: 40px;
+    border-radius: 5px;
+    padding: 0 0 30px 0;
+    height: 880px;
+    background-color: var(--white-color);
+}
+
+.background-img{
+    width: 100%;
+    max-height: 350px;
+}
+.colum-4{
+    text-align: center;
+}
+.row-body{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.avata-img{
+    
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin-top: -80px;
+    border-radius:50%;
+    margin-left: 32%;
+    box-shadow: 0 0 1px 1px #999;
+}
+.avata{
+    width: 100%;
+    margin-top: -25px;
+}
+
+.propety{
+    
+    text-align: center;
+}
+.name{
+    position: relative;
+    margin: 15px 0 0;
+    line-height: 30px;
+    font-weight: 550;
+}
+.name::after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+   top: -33px;
+    right: 148px;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 2px var(--white-color);
+    background-color: rgb(47, 255, 85);
+
+}
+
+.info{
+    margin: 0;
+    line-height: 22px;
+    color: var(--gray-color);
+    font-size: 13px;
+}
+.number{
+    color: var(--gray-color);
+    margin: 10px 0;
+    font-size: 15px;
+}
+.folowing{
+    color: var(--gray-color);
+    margin: 10px 0 0;
+}
+.brick{
+    width: 70%;
+    height: 1px;
+    background-color: #edefef;
+    margin: 30px auto 0;
+}
+
+.text-footer{
+    text-align: center;
+    margin-top: 30px;
+}
+.text{
+    color: var(--gray-color);
+}
+.footer-icon{
+    margin-top: 35px;
+}
+.footer-icon a{
+    text-decoration: none;
+    font-size: 30px;
+}
+.footer-icon a:hover{
+    opacity: 0.8;
+}
+.icon-twitter{
+    color: var(--blue-color);
+}
+
+.icon-face{
+    color: rgb(0, 55, 255);
+    margin: 0 8px;
+}
+
+.icon-mess{
+    color: rgb(78, 31, 248);
+    margin-right: 8px;
+    
+}
+
+.icon-ytb{
+    color: red;
+}
+
+
+
+.header{
+   height: 50px; 
+   align-items:center ;
+
+}
+.heading>ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    text-transform: uppercase;
+}
+.heading>ul>li{
+    width: 140px;
+    font-weight: 500;
+}
+.heading>ul>li:first-child{
+    font-weight: 550;
+}
+.btn-blue{
+    padding: 7px 17px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 0 10px 2px var(--blue-color);
+    color: var(--white-color);
+    background-color: var(--blue-color);
+}
+.btn-blue:hover{
+    opacity: 0.8;
+}
+.album{
+    margin-top: -25px;
+    padding-left: 41px;
+}
+.img{
+    width: 205px;
+    height: 160px;
+   margin-top: 35px;
+}
